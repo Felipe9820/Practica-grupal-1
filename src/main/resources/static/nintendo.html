@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://wwww.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+    <head th:replace="layout/plantilla :: head">
+        <title>Tienda</title>
+    </head>
+
+    <body bgcolor="#abaaa7">
+        <header th:replace="layout/plantilla :: header"/>
+        <br>
+            
+       <header th:fragment="header" class="header">
+           <nav class="navbar navbar-expand-sm navbar">
+           <a href="index.html"><img src="/img/Tienda.png" height="180" align=""/></a>
+                 
+                
+         
+            <br>
+           <center>
+                <div class="container">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a  class="navbar-brand" href="playS.html"><img src="/img/playS.png" height="125"/></a>                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="navbar-brand" href="nintendo.html"> <img src="/img/nintendo.png" height="125"/></a>                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <a class="navbar-brand" href="xbox.html"><img src="/img/xbox.png" height="125"/></a>                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <hr>
+               </div>
+           </center>
+                <br>
+            <br>
+           <center>
+           <div class="container">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          
+          <a class="navbar-brand"><img src="/img/dirt.png" height="300"/>Descripcion:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="navbar-brand"> <img src="/img/gta1.png" height="300"/>Descripcion:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="navbar-brand"><img src="/img/hallo.png" height="300"/>Descripcion:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="navbar-brand"><img src="/img/forza.png" height="300"/>Descripcion:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="navbar-brand"><img src="/img/mario.png" height="300"/>Descripcion:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+               </header>
+        <br>
+            <br>
+                
+    
+        <footer th:fragment="footer-center" class="bg-info bg-white text-dark mt-5 p-5">
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav" >
+        
+        <br>
+                            
+                                
+            <a class="nav-menu-link nav-link" ><img src="/img/facebook.png" height="20"/><a href="https://www.facebook.com/"><i> Tienda</i></a><br>
+            <a class="nav-menu-link nav-link"><img src="/img/instagram.png" height="20"/><a href="https://www.instagram.com/"><i> Tienda</i></a><br>
+            <a class="nav-menu-link nav-link" ><img src="/img/whats.png" height="20"/><a href="https://www.whatsapp.com/?lang=es"> 8888-5655</a><br>
+        <a href="ubicacion.html">Ubicacion</a> | 
+        <a href="ayuda.html">ayuda</a>                             
+ <center>                               
+            
+           
+                                        <hr>
+                                        <div class="container">
+                                            <div class="col">
+                                                <p class="lead text-center">&COPY; Derechos Reservados 2023 |
+                                                    <a th:href="@{/(lang=es)}">ES</a> |
+                                                    <a th:href="@{/(lang=en)}">EN</a>
+                                                   
+
+                                                </p>
+                                            </div>
+                                        </div>
+ </center>
+                                        <nav class="navbar navbar-expand-sm navbar p-0">
+                                            <div class="container">
+                                                  </footer>
+        
+       
+    </body> 
+</html>
+

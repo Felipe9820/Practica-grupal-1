@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://wwww.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+    <head th:replace="layout/plantilla :: head">
+        <title>Tienda</title>
+
+    </head>
+     <body bgcolor="#abaaa7">
+        <header th:replace="layout/plantilla :: header"/>
+        <br>
+        <nav class="navbar navbar-expand-sm navbar p-2">
+           <a href="index.html"><img src="/img/Tienda.png" height="180" align="right"/></a>&nbsp;&nbsp;&nbsp;
+                 
+                
+<br>
+                     <center>
+               <div class="container">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <a  class="navbar-brand"><img src="/img/playS.png" height="125"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="navbar-brand"> <img src="/img/nintendo.png" height="125"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <a class="navbar-brand"><img src="/img/xbox.png" height="125"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 
+                        <br>
+           <br>
+               </div>
+           </center>
+                     
+                        </header>  
+             </nav>     
+              <br>
+                        <br>
+                            <br>
+        <center>
+          <h2>Somos una tienda virtual de video juegos, estamos encargados de darte la mejor experiencia en nuestra tienda virtual.</h2>
+<h2>En casos de algun problema con las compras, sera notificado al usuario por medio del correo electronico, si luego de los 2 dias
+no se realiza la entrega de algun articulo, deberas notificarlo por medio de WhatsApp 8888-5655 o a nuestro correo electronico
+y presentar el comprobante electronico.</h2>
+<h2>La entrega de los articulos se realizan al siguiente dia de realizar el pago.
+Cualquier consulta en nuestros medios de comunicación.</h2>
+        </center>
+      
+        <footer th:replace="layout/plantilla :: footer"/>
+        <center>                               
+            
+           
+            <br>
+                                        <div class="container">
+                                            <div class="col">
+                                                <p class="lead text-center">&COPY; Derechos Reservados 2023 |
+                                                    <a th:href="@{/(lang=es)}">ES</a> |
+                                                    <a th:href="@{/(lang=en)}">EN</a>
+                                                   
+
+                                                </p>
+                                            </div>
+                                        </div>
+ </center>
+    </body>
+    
+</html>
